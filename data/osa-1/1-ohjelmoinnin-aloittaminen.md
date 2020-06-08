@@ -14,6 +14,8 @@ Tämän osion jälkeen
 
 </text-box>
 
+<code-states-visualizer input='{"code": "print(\"Hello\")\na = 1\nb = 2\nprint(a)\nprint(\"b\")", "trace": [{"line": 1, "event": "step_line", "func_name": "<module>", "globals": {}, "ordered_globals": [], "stack_to_render": [], "heap": {}, "stdout": ""}, {"line": 2, "event": "step_line", "func_name": "<module>", "globals": {}, "ordered_globals": [], "stack_to_render": [], "heap": {}, "stdout": "Hello\n"}, {"line": 3, "event": "step_line", "func_name": "<module>", "globals": {"a": 1}, "ordered_globals": ["a"], "stack_to_render": [], "heap": {}, "stdout": "Hello\n"}, {"line": 4, "event": "step_line", "func_name": "<module>", "globals": {"a": 1, "b": 2}, "ordered_globals": ["a", "b"], "stack_to_render": [], "heap": {}, "stdout": "Hello\n"}, {"line": 5, "event": "step_line", "func_name": "<module>", "globals": {"a": 1, "b": 2}, "ordered_globals": ["a", "b"], "stack_to_render": [], "heap": {}, "stdout": "Hello\n1\n"}, {"line": 5, "event": "return", "func_name": "<module>", "globals": {"a": 1, "b": 2}, "ordered_globals": ["a", "b"], "stack_to_render": [], "heap": {}, "stdout": "Hello\n1\nb\n"}]}'></code-states-visualizer>
+
 Tietokoneohjelmat koostuvat _komennoista_ eli yksinkertaisista toimintaohjeista, joita kone suorittaa yksi kerrallaan. Komennot voivat esimerkiksi suorittaa laskutoimituksia, vertailla koneen muistissa olevia tietoja, aiheuttaa muutoksen ohjelman toimintaan tai välittää viestejä ja kysellä tietoja käyttäjältä.
 
 Aloitetaan ohjelmointiin tutustuminen yksinkertaisesta komennosta `print`, joka _tulostaa_ tekstiä. Tulostaminen tarkoittaa käytännössä sitä, että ohjelma näyttää tekstiä ruudulla.
