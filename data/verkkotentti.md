@@ -13,9 +13,10 @@ information_page: true
 ### Tentin toteutus
 
 * Tentti suoritetaan kurssitehtävien tapaan vscode-ympäristössä
-* Kurssin tentin voi suorittaa toisen kerran 05.09.2020 **klo 10:00-22:00** välisenä aikana
-* Tentti päättyy viimeistään klo 22:00. Jos haluat käyttää tenttiin maksimiajan, **aloita se viimeistään klo 18:00**
+* Kurssin tentin voi suorittaa toisen kerran 05.09.2020 **klo 10:00-23:59** välisenä aikana
+* Tentti päättyy viimeistään klo 23:59. Jos haluat käyttää tenttiin maksimiajan, **aloita se viimeistään klo 18:00**
 * Aikaa tentin tekemiseen on **neljä tuntia**. Jos sinulla on erikseen annettu tenttiin lisäaikaa, aikaa on viisi tuntia
+* Teknisiin ongelmiin voi saada apua klo. 10:00 asti.
 
 ### Tehtäväpohjien hakeminen (ennen tenttipäivää)
 
